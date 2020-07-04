@@ -35,7 +35,10 @@
       sizes="57x57"
       href="img/favicon-standard-iphone.png"
     />
-
+    <script
+      src="https://kit.fontawesome.com/e4654ceb27.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- ============== Resources style ============== -->
     <link rel="stylesheet" type="text/css" href="css/style-fresh-v2.css" />
 
@@ -70,13 +73,39 @@
 
     <!-- START - Right block -->
     <div id="info">
+      <div class="custom-position-flag">
+        <div class="flag-dropdown dropdown">
+          <a
+            href="javascript:void(0);"
+            class="dropdown-toggle"
+            data-toggle="collapse"
+            data-target="#toggle-show-flag"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <div class="wrapper_icon">
+              <img src="img/icon/united-states.svg" width="35" />
+              <i
+                class="fas fa-chevron-down"
+                style="color: #fff; margin-left: 10px;"
+              ></i>
+            </div>
+          </a>
+          <!-- <ul class="dropdown-menu custom-dropdown-flags" id="toggle-show-flag">
+            <li>
+              <a href="#us"><img src="img/icon/japan.svg" width="35" /></a>
+            </li>
+          </ul> -->
+        </div>
+      </div>
       <div class="content">
         <h2>Stay <span>tuned!</span></h2>
         <!-- Countdown -->
         <div id="getting-started"></div>
-
-        <h3>Days before the Grand Opening</h3>
-
+        <h3>
+          Days before the <span style="font-weight: 600;">Grand Opening</span>
+        </h3>
         <a data-dialog="somedialog" class="action-btn trigger">Coming Soon</a>
       </div>
 

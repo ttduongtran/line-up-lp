@@ -206,7 +206,7 @@ table {
 }
 
 #loading #preloader:after {
-  content: "ALINEUP";
+  content: "";
   /* Text under the circle */
   position: absolute;
   text-transform: uppercase;
@@ -214,12 +214,15 @@ table {
   font-weight: 500;
   color: #4d515f;
   letter-spacing: 0.2rem;
-  top: 3.5rem;
-  width: 100%;
-  left: 0;
-  right: 0;
-  height: 1px;
+  top: 6.5rem;
+  width: 224px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
   text-align: center;
+  background: url(../img/logo.png) no-repeat center center;
+  background-size: cover;
+  opacity: 0.4;
 }
 
 #loading #preloader span {
@@ -1382,6 +1385,24 @@ sup {
   left: 0;
 }
 
+.custom-position-flag {
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+
+.custom-position-flag img {
+  height: 24px;
+  width: 24px;
+  border-radius: 99px;
+  object-fit: cover;
+}
+
+.custom-position-flag .wrapper_icon {
+  display: flex;
+  align-items: center;
+}
+
 /* ------------------------------------- */
 
 /* 8. Newsletter ....................... */
@@ -1923,6 +1944,12 @@ sup {
   }
   #info #social-nav ul {
     display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #info {
+    padding: 18% 10%;
   }
 }
 
