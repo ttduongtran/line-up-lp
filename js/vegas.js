@@ -28,13 +28,35 @@ $(window).load(function() {
 
         $('.slideshow-about').vegas({
             slides: [
-                { src: 'img/slide-1.jpg' },
-                { src: 'img/slide-2.jpg' },
-                { src: 'img/slide-3.jpg' },
+                { src: 'img/slide-1.jpg' }
             ],
 
             // Delay beetween slides in milliseconds.
             delay: 5000,
+
+            // Chose your transition effect (See the documentation provided in your download pack)
+            transition: 'fade'
+        });
+
+        $('.slideshow-interface').vegas({
+            slides: [
+                { src: 'img/slide-2.jpg' }
+            ],
+
+            // Delay beetween slides in milliseconds.
+            // delay: 5000,
+
+            // Chose your transition effect (See the documentation provided in your download pack)
+            transition: 'fade'
+        });
+
+        $('.slideshow-security').vegas({
+            slides: [
+                { src: 'img/slide-3.jpg' }
+            ],
+
+            // Delay beetween slides in milliseconds.
+            // delay: 5000,
 
             // Chose your transition effect (See the documentation provided in your download pack)
             transition: 'fade'

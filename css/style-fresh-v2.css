@@ -609,7 +609,7 @@ sup {
   display: table;
   position: relative;
   height: 100vh;
-  padding: 0 5%;
+  padding: 0 4%;
   text-align: left;
 }
 
@@ -622,6 +622,7 @@ sup {
   font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana,
     sans-serif;
   font-weight: 100;
+  font-size: 4rem;
 }
 
 .copyright {
@@ -775,8 +776,10 @@ sup {
 
 /* ------------------------------------- */
 
-.slideshow-about {
+.slideshow-about,
+.slideshow-section {
   height: 100vh !important;
+  min-height: 100vh;
 }
 
 /* ------------------------------------- */

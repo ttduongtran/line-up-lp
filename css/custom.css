@@ -1,0 +1,28 @@
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.font-weight-bold {
+  font-weight: 600;
+}
+.section .text-left-block .left-center-text .left-center-part .part-icon {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.section .text-left-block .left-center-text .left-center-part .part-icon img {
+  margin-right: 1rem;
+  max-width: 30px;
+}
+
+.section
+  .text-left-block
+  .left-center-text
+  .left-center-part
+  .part-icon
+  .part-icon-inner {
+  margin-bottom: 1rem;
+}
+
+.section .text-left-block .left-center-text .left-center-part .box-content {
+  margin-bottom: 3rem;
+}
