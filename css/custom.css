@@ -1,9 +1,11 @@
 .mb-1 {
   margin-bottom: 0.5rem;
 }
+
 .font-weight-bold {
   font-weight: 600;
 }
+
 .section .text-left-block .left-center-text .left-center-part .part-icon {
   display: flex;
   padding: 1rem 0;
@@ -25,4 +27,25 @@
 
 .section .text-left-block .left-center-text .left-center-part .box-content {
   margin-bottom: 3rem;
+}
+
+#security {
+  position: relative;
+}
+
+.links_tab_mobile {
+  display: none !important;
+  bottom: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .links_tab_mobile {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .link_des {
+    display: none;
+  }
 }
