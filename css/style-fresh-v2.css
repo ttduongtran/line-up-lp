@@ -1279,6 +1279,13 @@ sup {
   visibility: visible;
 }
 
+#info .content h2 {
+  font-size: 6rem;
+}
+#info .content h3 {
+  line-height: 1.5;
+}
+
 #info .content #getting-started {
   font-size: 17rem;
   line-height: 17rem;
@@ -1406,6 +1413,18 @@ sup {
   align-items: center;
 }
 
+.links {
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+}
+.links a {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 4px;
+}
+.links a:hover {
+  color: #fff;
+}
 /* ------------------------------------- */
 
 /* 8. Newsletter ....................... */
