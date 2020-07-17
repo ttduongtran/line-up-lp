@@ -1,12 +1,3 @@
-/*
-* KUBRICK - Attractive Coming Soon Template
-* Build Date: May 2016
-* Last Update: February 2017
-* Author: Madeon08 for ThemeHelite
-* Copyright (C) 2017 ThemeHelite
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-
 /*  TABLE OF CONTENTS
     ---------------------------
     1. Loading / Opening
@@ -72,9 +63,9 @@ $(document).ready(function(){
     /* ------------------------------------- */
 
     $('#fullpage').fullpage({
-        anchors: ['Home-1', 'About-2', 'Portfolio-3', 'Contact-4'],
+        anchors: ['Lineup-1', 'Lineup-2', 'Interface-3', 'Security-4'],
         navigation: true,
-        navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
+        navigationTooltips: ['Lineup', 'Lineup-2', 'Simple Interface', 'Security'],
         responsiveWidth: 1025,
         scrollBar:true,
 
